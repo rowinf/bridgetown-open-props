@@ -33,17 +33,6 @@ h1 {
   line-height: 1.2;
 }
 
-body > header {
-  margin: 1rem;
-  text-align: center;
-}
-
-body > header img {
-  display: inline-block;
-  width: 400px;
-  max-width: 100%;
-}
-
 body > nav ul {
   margin: 2rem 0;
   padding: 0;

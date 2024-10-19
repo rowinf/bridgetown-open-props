@@ -1,11 +1,17 @@
-<header>
-  <img src="<%= relative_url '/images/logo.svg' %>" alt="Logo" />
+<header style="margin: 0; text-align: center; background-image: var(--gradient-7);">
+  <img
+    src="<%= relative_url '/images/logo.svg' %>"
+    alt="Logo"
+    style="display: inline-block;
+          block-size: var(--size-15);
+          aspect-ratio: var(--ratio-landscape);
+          max-width: 100%;" />
 </header>
 
 <nav>
   <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
-    <li><a href="<%= relative_url '/about' %>">About</a></li>
+    <li><a href="<%= relative_url '/' %>" style="color: var(--cyan-3);">Home</a></li>
+    <li style="animation: var(--animation-bounce) forwards;"><a href="<%= relative_url '/about' %>" >About</a></li>
     <li><a href="<%= relative_url '/posts' %>">Posts</a></li>
   </ul>
 </nav>
