@@ -1,10 +1,11 @@
 @import "variables.css";
 
 :root {
-  --body-background: #f2f2f2;
-  --body-color: #444;
-  --heading-color: black;
+  --body-background: var(--gray-8);
+  --body-color: var(--yellow-1);
+  --heading-color: var(--yellow-1);
   --action-color: #d64045;
+  --shadow-color: 205 100% 95.3%;
 }
 
 body {
@@ -50,11 +51,11 @@ body > nav a {
 
 main {
   margin: 2rem auto 4rem;
-  max-width: 65rem;
+  width: fit-content;
   min-height: calc(100vh - 200px);
   padding: 25px 25px 50px;
-  background: white;
-  box-shadow: 2px 3px 3px #ddd;
+  background: var(--blue-12);
+  box-shadow: var(--shadow-3);
   border-radius: 3px;
 
   @media (max-width: 500px) {
