@@ -2,6 +2,7 @@
 
 /* Uncomment this if you want addiitonal "default" styles applied: */
 @import "open-props/normalize.min.css";
+@import "open-props/buttons.min.css";
 
 :root {
   /* Define additional variables here. */
