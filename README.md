@@ -1,24 +1,24 @@
-# Bridgetown Website README
+# Bridgetown Open Props Demo
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+This is a demo of Open Props. This demo uses bridgetown. Open Props offers a lot of CSS variables for use in your front end development project.
 
-## Table of Contents
+Open props gives you the power of CSS variables right now. It meets you where you are, letting you use as much or as little of it as you want. CSS variables are a new and powerful tool for your front end kit. 
 
-- [Prerequisites](#prerequisites)
-- [Install](#install)
-- [Development](#development)
-- [Commands](#commands)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+You can add open props to your next Bridgetown project with the command line flag: 
+
+`$ bridgetown new [project-name] -c open-props`
+
+Follow the commits to understand this project
+
+1. initial commit to create the project
+2. import normalize.css for base styles
+3. add some inline styles to the nav bar
+4. add some styles to the main content
+5. import buttons.css and create a basic contact form
 
 ## Prerequisites
 
-- [GCC](https://gcc.gnu.org/install/)
-- [Make](https://www.gnu.org/software/make/)
-- [Ruby](https://www.ruby-lang.org/en/downloads/)
-  - `>= 2.7`
-- [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
-  - `gem install bridgetown -N`
+- [Ruby](https://www.ruby-lang.org/en/downloads/)`
 - [Node](https://nodejs.org)
   - `>= 12`
 - [Yarn](https://yarnpkg.com)
@@ -26,16 +26,13 @@ Welcome to your new Bridgetown website! You can update this README file to provi
 ## Install
 
 ```sh
-cd bridgetown-site-folder
 bundle install && yarn install
 ```
 > Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
 
 ## Development
 
-To start your site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/)!
-
-Use a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
+To start development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/)!
 
 ### Commands
 
@@ -57,14 +54,3 @@ bin/bridgetown console
 You can deploy Bridgetown sites on hosts like Render or Vercel as well as traditional web servers by simply building and copying the output folder to your HTML root.
 
 > Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
-
-## Contributing
-
-If repo is on GitHub:
-
-1. Fork it
-2. Clone the fork using `git clone` to your local development machine.
-3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Commit your changes (`git commit -am 'Add some feature'`)
-5. Push to the branch (`git push origin my-new-feature`)
-6. Create a new Pull Request
